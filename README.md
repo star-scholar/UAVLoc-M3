@@ -103,9 +103,6 @@ More detailed file structure:
 The proposed dataset can be characterized by the following key features:
 
 1. **Multi-scale.** Under similar ground resolution conditions, UAVLoc-M3 displays an approximately 300-fold scale disparity between satellite maps and UAV images. The relative flight altitude of the UAVs ranges from 300 to 800 meters. It is the first dataset to record diverse flight attitude variations, effectively capturing the complex operational states encountered in real-world missions.
-2. **Multi-scene.** UAVLoc-M3 features rich texture information across a variety of terrains and landforms, including but not limited to roads, villages, towns, rivers, hills, and farmlands. This ensures the dataset’s representativeness and applicability
-across diverse geographical environments.
-3. **Multi-temporal characteristics.** The image acquisition times and meteorological conditions are highly diverse, encompassing both spring and summer seasons under clear and foggy weather conditions. This enhances the dataset’s generalization capability
-under varying illumination and visibility scenarios.
-These features collectively strengthen the dataset’s coverage of real-world conditions, providing a more realistic and challenging benchmark for UAV visual localization tasks.
+2. **Multi-scene.** UAVLoc-M3 features rich texture information across a variety of terrains and landforms, including but not limited to roads, villages, towns, rivers, hills, and farmlands. This ensures the dataset’s representativeness and applicability across diverse geographical environments.
+3. **Multi-temporal characteristics.** The image acquisition times and meteorological conditions are highly diverse, encompassing both spring and summer seasons under clear and foggy weather conditions. This enhances the dataset’s generalization capability under varying illumination and visibility scenarios. These features collectively strengthen the dataset’s coverage of real-world conditions, providing a more realistic and challenging benchmark for UAV visual localization tasks.
 
