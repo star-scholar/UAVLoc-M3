@@ -18,7 +18,7 @@
 
 We propose an unsupervised UAV localization method structured as a coarse-to-ffne framework. Our method is based on feature point extraction and matching, and we employ a structural-mask weighting strategy to enhance geometric consistency and reliability of match-ing. The framework initially partitions large-scale satellite imagery into numerous patches, identifying the optimal match through a search process. Then, precise lo-calization is achieved through a coordinate reffnement method based on homogra-phy matrix estimation. Furthermore, we constructed UAVLoc-M3, a dataset tai-lored to the requirements of our task, characterized by multi-scale, multi-scene, and multi-temporal variability. Comprising UAV imagery and large-scale satellite maps, this dataset covers three distinct regions encompassing diverse geographic scenarios under varying illumination conditions. 
 
-| ![fig1.png](https://github.com/star-scholar/UAVLoc-M3/main/img/fig1.png) | 
+| ![fig1.png](https://github.com/star-scholar/UAVLoc-M3/main/img/figure1.png) | 
 |:--:| 
 | *Fig. 1 Schematic of UAV visual localization task.* |
 
@@ -41,15 +41,15 @@ from various flight attitudes and perspectives. The flight paths traversed diver
 3) Dataset Composition: The sampled UAV and satellite maps were structured into the UAVLoc-M3 dataset. The detailed composition is presented in Table 1. The dataset records not only the attribute information of the UAV images—including image resolution, geographic coordinates (latitude and longitude), acquisition date, flight altitude, and orientation angles (pitch, yaw, and roll)—but also provides the geographic extent information (i.e., corresponding GPS longitude and latitude ranges) of the satellite maps.
 
 
-| ![fig2.png](https://github.com/IntelliSensing/UAV-VisLoc/blob/main/img/fig2.png) | 
+| ![fig2.png](https://github.com/star-scholar/UAVLoc-M3/main/img/figure2.png) | 
 |:--:| 
-| *Fig. 2 An example of drone images and satellite map. The red dots in the satellite map represent the center points of drone images. The satellite map encompasses various terrains such as cities, towns, farms, and rivers. We also show the drone images of these terrains.* |
+| *Fig. 2 Sample Images of the UAVLoc-M3 Dataset. For each of the three distinct regions, the satellite image is shown on the left, and example UAV images of different scenes within that region are shown on the right. The corresponding location of each UAV image in the satellite image is indicated by a red circle.* |
 
 
 
-| ![table2.png](https://github.com/IntelliSensing/UAV-VisLoc/blob/main/img/table2.png)| 
+| ![table2.png](https://github.com/star-scholar/UAVLoc-M3/main/img/table2.png)| 
 |:--:| 
-| *TABLE I: IMAGE ATTRIBUTE COMPOSITION FOR THE UAV-VisLoc DATASET.* |
+| *TABLE I: Data Composition of the UAVLoc-M3 Dataset.* |
 
 
 The dataset contents are as follows:
