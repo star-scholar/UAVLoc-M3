@@ -18,7 +18,7 @@
 
 We propose an unsupervised UAV localization method structured as a coarse-to-ffne framework. Our method is based on feature point extraction and matching, and we employ a structural-mask weighting strategy to enhance geometric consistency and reliability of match-ing. The framework initially partitions large-scale satellite imagery into numerous patches, identifying the optimal match through a search process. Then, precise lo-calization is achieved through a coordinate reffnement method based on homogra-phy matrix estimation. Furthermore, we constructed UAVLoc-M3, a dataset tai-lored to the requirements of our task, characterized by multi-scale, multi-scene, and multi-temporal variability. Comprising UAV imagery and large-scale satellite maps, this dataset covers three distinct regions encompassing diverse geographic scenarios under varying illumination conditions. 
 
-| ![fig1.png](https://github.com/star-scholar/UAVLoc-M3/main/img/figure1.png) | 
+| ![fig1.png](https://github.com/star-scholar/UAVLoc-M3/blob/main/img/figure1.png) | 
 |:--:| 
 | *Fig. 1 Schematic of UAV visual localization task.* |
 
