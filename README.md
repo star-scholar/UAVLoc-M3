@@ -20,9 +20,10 @@ We propose an unsupervised UAV localization method structured as a coarse-to-ffn
 
 | ![fig1.png](https://github.com/IntelliSensing/UAV-VisLoc/blob/main/img/fig1.png) | 
 |:--:| 
-| *Fig. 1 Schematic of UAV visual localization task.
-* |
+| *Fig. 1 Schematic of UAV visual localization task.* |
 
 ## 2. About Dataset
 
 ### 2.1 Overall Dataset
+
+You can download our overall dataset (932MB) on [ScienceDB]([https://www.scidb.cn/s/aUjYFb]).
