@@ -47,17 +47,9 @@ from various flight attitudes and perspectives. The flight paths traversed diver
 
 
 
-| ![table2.png](https://github.com/star-scholar/UAVLoc-M3/blob/main/img/table2.png)| 
+| ![table2.png](https://github.com/star-scholar/UAVLoc-M3/blob/main/img/table1.png)| 
 |:--:| 
 | *TABLE I: Data Composition of the UAVLoc-M3 Dataset.* |
-
-
-The dataset contents are as follows:
-
-| Drone Images | Satellite Maps | Cites | Categories |
-| ------------ | -------------- | ----- | ---------- |
-| 6,742        | 11             | 11    | 7          |
-
 
 More detailed file structure:
 
