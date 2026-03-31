@@ -70,4 +70,40 @@ More detailed file structure:
 │       ├── AnYangRiver.xlsx			   		   /* format as: id lon lat GPS_Alt roll pitch yaw
 │       ├── location_with_dem.xlsx			   		   /* format as: id target_lon target_lat relative_altitude
 │       ├── pxGT_dem.xlsx			   		   /* format as: id pixel_x pixel_y
+│   ├── CuiJiaQiao/
+|       ├── dem/
+|           ├── N36E114.hgt
+|           ├── N36E115.hgt
+|           ...
+│       ├── drone/                    /* Drone Images
+│           ├── DSC00472.jpg
+│           ├── DSC00473.jpg
+│           ├── DSC00474.jpg
+|           ...
+│       ├── satellite              	   /* Satellite Maps
+│           ├── CuiJiaQiao.jpg
+│       ├── CuiJiaQiao.xlsx			   		   /* format as: id lon lat GPS_Alt roll pitch yaw
+│       ├── location_with_dem.xlsx			   		   /* format as: id target_lon target_lat relative_altitude
+│       ├── pxGT_dem.xlsx			   		   /* format as: id pixel_x pixel_y
+│   ├── Chongmingdao/
+|       ├── dem/
+|           ├── N31E121.hgt
+|           ├── N31E122.hgt
+|           ...
+│       ├── drone/                    /* Drone Images
+│           ├── 1497~1516,3459~3508,4986~5191
+|               ├── DSC01497.jpg
+|               ├── DSC01498.jpg
+|               ├── DSC01499.jpg
+|               ...
+│           ├── 1517~1652,3310~3458
+│           ├── 1653~1867,3094~3309
+|           ...
+│       ├── satellite              	   /* Satellite Maps
+│           ├── 1497~1517,3459~3515,4986~5191.jpg
+│           ├── 1517~1653,3310~3459.jpg
+│           ├── 1653~1868,3094~3310.jpg
+│       ├── Chongmingdao.xlsx			   		   /* format as: id lon lat GPS_Alt roll pitch yaw
+│       ├── location_with_dem.xlsx			   		   /* format as: id target_lon target_lat relative_altitude
+│       ├── pxGT_dem.xlsx			   		   /* format as: id pixel_x pixel_y
 
