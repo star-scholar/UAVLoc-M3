@@ -54,30 +54,20 @@ from various flight attitudes and perspectives. The flight paths traversed diver
 More detailed file structure:
 
 ```
-├── UAV-VisLoc/
-│   ├── satellite_coordinates_range.csv   /* format as: filename latitude longitude
-│   ├── 01/
+├── UAVLoc-M3_dataset/
+│   ├── AnYangRiver/
+|       ├── dem/
+|           ├── N36E113.hgt
+|           ├── N36E114.hgt
+|           ...
 │       ├── drone/                    /* Drone Images
-│           ├── 01_0001.JPG
-│           ├── 01_0002.JPG
-│           ├── 01_0003.JPG
+│           ├── DSC07012.jpg
+│           ├── DSC07013.jpg
+│           ├── DSC07014.jpg
 |           ...
-│       ├── satellite01.tif              	   /* Satellite Maps
-│       ├── 01.csv			   		   /* format as: filename latitude longitude height ···
-│   ├── 02/
-│       ├── drone/                     /* Drone Images
-│           ├── 02_0001.JPG
-│           ├── 02_0002.JPG
-│           ├── 02_0003.JPG
-|           ...
-│       ├── satellite02.tif               		/* Satellite Maps
-│       ├── 02.csv				        /* format as: filename latitude longitude height ···
-│   ├── 03/
-│       ├── drone/                      /* Drone Images
-│           ├── 03_0001.JPG
-│           ├── 03_0002.JPG
-│           ├── 03_0003.JPG
-|           ...
-│       ├── satellite03.tif              	    /* Satellite Maps
-│       ├── 03.csv						/* format as: filename latitude longitude height ···
-```
+│       ├── satellite              	   /* Satellite Maps
+│           ├── AnYangRiver.jpg
+│       ├── AnYangRiver.xlsx			   		   /* format as: id lon lat GPS_Alt roll pitch yaw
+│       ├── location_with_dem.xlsx			   		   /* format as: id target_lon target_lat relative_altitude
+│       ├── pxGT_dem.xlsx			   		   /* format as: id pixel_x pixel_y
+
