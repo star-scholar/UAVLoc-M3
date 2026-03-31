@@ -1,4 +1,4 @@
-<h1 align="center"> UAV-VisLoc: A Large-scale Dataset for UAV Visual Localization </h1>
+<h1 align="center"> Unsupervised UAV Visual Localization: Dataset and Method via Local Feature Point </h1>
 
 ## 0. Table of Contents
 
