@@ -24,8 +24,6 @@ We propose an unsupervised UAV localization method structured as a coarse-to-ffn
 
 ## 2. About Dataset
 
-### 2.1 Overall Dataset
-
 You can download our overall dataset (932MB) on [ScienceDB](https://www.scidb.cn/s/aUjYFb).
 DOI:10.57760/sciencedb.29772
 
@@ -44,8 +42,6 @@ from various flight attitudes and perspectives. The flight paths traversed diver
 | ![fig2.png](https://github.com/star-scholar/UAVLoc-M3/blob/main/img/figure2.png) | 
 |:--:| 
 | *Fig. 2 Sample Images of the UAVLoc-M3 Dataset. For each of the three distinct regions, the satellite image is shown on the left, and example UAV images of different scenes within that region are shown on the right. The corresponding location of each UAV image in the satellite image is indicated by a red circle.* |
-
-
 
 | ![table2.png](https://github.com/star-scholar/UAVLoc-M3/blob/main/img/table1.png)| 
 |:--:| 
