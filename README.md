@@ -41,13 +41,13 @@ from various flight attitudes and perspectives. The flight paths traversed diver
 3) Dataset Composition: The sampled UAV and satellite maps were structured into the UAVLoc-M3 dataset. The detailed composition is presented in Table 1. The dataset records not only the attribute information of the UAV images—including image resolution, geographic coordinates (latitude and longitude), acquisition date, flight altitude, and orientation angles (pitch, yaw, and roll)—but also provides the geographic extent information (i.e., corresponding GPS longitude and latitude ranges) of the satellite maps.
 
 
-| ![fig2.png](https://github.com/star-scholar/UAVLoc-M3/main/img/figure2.png) | 
+| ![fig2.png](https://github.com/star-scholar/UAVLoc-M3/blob/main/img/figure2.png) | 
 |:--:| 
 | *Fig. 2 Sample Images of the UAVLoc-M3 Dataset. For each of the three distinct regions, the satellite image is shown on the left, and example UAV images of different scenes within that region are shown on the right. The corresponding location of each UAV image in the satellite image is indicated by a red circle.* |
 
 
 
-| ![table2.png](https://github.com/star-scholar/UAVLoc-M3/main/img/table2.png)| 
+| ![table2.png](https://github.com/star-scholar/UAVLoc-M3/blob/main/img/table2.png)| 
 |:--:| 
 | *TABLE I: Data Composition of the UAVLoc-M3 Dataset.* |
 
