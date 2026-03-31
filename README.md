@@ -6,7 +6,7 @@
 
 * [About Dataset](#2-about-dataset)
 
-* [Contributions](#3-contributions)
+* [Advantages of UAVLoc-M3 Dataset](#3-advantages-of-UAVLoc-M3-Dataset)
 
 ## 1. Introduction
 
@@ -96,6 +96,7 @@ More detailed file structure:
 │       ├── Chongmingdao.xlsx			   		   /* format as: id lon lat GPS_Alt roll pitch yaw
 │       ├── location_with_dem.xlsx			   		   /* format as: id target_lon target_lat relative_altitude
 │       ├── pxGT_dem.xlsx			   		   /* format as: id pixel_x pixel_y
+```
 
 ## 3. Advantages of UAVLoc-M3 Dataset
 
