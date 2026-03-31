@@ -26,4 +26,4 @@ We propose an unsupervised UAV localization method structured as a coarse-to-ffn
 
 ### 2.1 Overall Dataset
 
-You can download our overall dataset (932MB) on [ScienceDB]([https://www.scidb.cn/s/aUjYFb]).
+You can download our overall dataset (932MB) on [ScienceDB](https://www.scidb.cn/s/aUjYFb).
